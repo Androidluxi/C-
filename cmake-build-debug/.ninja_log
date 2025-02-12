@@ -1,0 +1,13 @@
+# ninja log v6
+1	276	1739354069868937633	CMakeFiles/C___learn.dir/C++11/auto.cpp.o	b65f5d865635ba34
+0	310	1739354069864937633	CMakeFiles/C___learn.dir/main.cpp.o	50524af959605f79
+1	324	1739354069868937633	CMakeFiles/C___learn.dir/pthread/my_pthread.cpp.o	cd53d21db20d582a
+1	194	1739354089536937188	CMakeFiles/C___learn.dir/C++11/auto.cpp.o	b65f5d865635ba34
+194	267	1739354089732937183	C___learn	ef26b2d74baf46fa
+0	5	1739359067088824445	clean	f46cd396af0b7a3a
+0	2	1739359082032824106	clean	f46cd396af0b7a3a
+1	4	1739359086024824016	clean	f46cd396af0b7a3a
+5	269	1739359086168824013	CMakeFiles/C___learn.dir/C++11/auto.cpp.o	b65f5d865635ba34
+4	358	1739359086168824013	CMakeFiles/C___learn.dir/pthread/my_pthread.cpp.o	cd53d21db20d582a
+1	363	1739359086164824013	CMakeFiles/C___learn.dir/main.cpp.o	50524af959605f79
+364	423	1739359086528824005	C___learn	ef26b2d74baf46fa
