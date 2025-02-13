@@ -70,6 +70,27 @@ build CMakeFiles/C___learn.dir/C++11/auto.cpp.o: CXX_COMPILER__C___learn_unscann
   OBJECT_DIR = CMakeFiles/C___learn.dir
   OBJECT_FILE_DIR = CMakeFiles/C___learn.dir/C++11
 
+build CMakeFiles/C___learn.dir/socket/client.cpp.o: CXX_COMPILER__C___learn_unscanned_Debug /home/lux/CLionProjects/C++_learn/socket/client.cpp || cmake_object_order_depends_target_C___learn
+  DEP_FILE = CMakeFiles/C___learn.dir/socket/client.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lux/CLionProjects/C++_learn/pthread
+  OBJECT_DIR = CMakeFiles/C___learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/C___learn.dir/socket
+
+build CMakeFiles/C___learn.dir/socket/server.cpp.o: CXX_COMPILER__C___learn_unscanned_Debug /home/lux/CLionProjects/C++_learn/socket/server.cpp || cmake_object_order_depends_target_C___learn
+  DEP_FILE = CMakeFiles/C___learn.dir/socket/server.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lux/CLionProjects/C++_learn/pthread
+  OBJECT_DIR = CMakeFiles/C___learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/C___learn.dir/socket
+
+build CMakeFiles/C___learn.dir/socket/control.cpp.o: CXX_COMPILER__C___learn_unscanned_Debug /home/lux/CLionProjects/C++_learn/socket/control.cpp || cmake_object_order_depends_target_C___learn
+  DEP_FILE = CMakeFiles/C___learn.dir/socket/control.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lux/CLionProjects/C++_learn/pthread
+  OBJECT_DIR = CMakeFiles/C___learn.dir
+  OBJECT_FILE_DIR = CMakeFiles/C___learn.dir/socket
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C___learn
@@ -78,7 +99,7 @@ build CMakeFiles/C___learn.dir/C++11/auto.cpp.o: CXX_COMPILER__C___learn_unscann
 #############################################
 # Link the executable C___learn
 
-build C___learn: CXX_EXECUTABLE_LINKER__C___learn_Debug CMakeFiles/C___learn.dir/main.cpp.o CMakeFiles/C___learn.dir/pthread/my_pthread.cpp.o CMakeFiles/C___learn.dir/C++11/auto.cpp.o
+build C___learn: CXX_EXECUTABLE_LINKER__C___learn_Debug CMakeFiles/C___learn.dir/main.cpp.o CMakeFiles/C___learn.dir/pthread/my_pthread.cpp.o CMakeFiles/C___learn.dir/C++11/auto.cpp.o CMakeFiles/C___learn.dir/socket/client.cpp.o CMakeFiles/C___learn.dir/socket/server.cpp.o CMakeFiles/C___learn.dir/socket/control.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lpthread
   OBJECT_DIR = CMakeFiles/C___learn.dir

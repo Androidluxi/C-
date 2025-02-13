@@ -12,6 +12,9 @@ add_executable(C___learn
         main.cpp
         pthread/my_pthread.cpp
         C++11/auto.cpp
+        socket/client.cpp
+        socket/server.cpp
+        socket/control.cpp
 )
 
 # 链接 pthread 库
